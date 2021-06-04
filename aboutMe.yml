@@ -1,9 +1,9 @@
-name: Your Name
-studentNumber: z1234567
-officialEmail: noIdea@unsw.edu.au
+name: Gabriella Sasvary
+studentNumber: z5364146
+officialEmail: z5364146@unsw.edu.au
 contactEmail: # don't write on this line
-  firstBit: firstName.Lastname # this avoids spam, the @ is implied
-  otherBit: whereIwork.com
+  firstBit: g.sasvary # this avoids spam, the @ is implied
+  otherBit: outlook.com
 # accounts
-stackOverflowLink: https://stackoverflow.com/users/1835727/ben
-github: notionparallax
+stackOverflowLink: https://stackoverflow.com/users/16114941/gabriella-sasvary
+github: https://github.com/gsasvary

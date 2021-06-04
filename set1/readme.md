@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+THis week I learnt how to print Hello World! and clone a copy of the me repo. At first it was overwhelming but once I began following the steps it became easier to understand. I am still not extremely sure what everything means yet but I am looking forward to learning more and beginning to understand better.
