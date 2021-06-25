@@ -11,6 +11,8 @@ import platform
 # I think this will print "hello! Let's get started" by calling the print function.
 print("hello! Let's get started")  # it printed "hello! Let's get started"
 
+# I think it will declare a variable called some_words
+# and it'll put a list of strings into it.
 some_words = ['what', 'does', 'this', 'line', 'do', '?']
 
 for word in some_words:
