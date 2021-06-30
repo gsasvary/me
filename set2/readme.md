@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+This week I learnt how to write code more efficiently with the correct structure. I am still understanding the concepts behind the code and what it all means.
