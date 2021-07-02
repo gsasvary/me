@@ -5,6 +5,23 @@ Steps on the way to making your own guessing game.
 
 import random
 
+def super_asker(low, high):
+    """Robust asking function.
+
+    Combine what you learnt from stubborn_asker and not_number_rejector
+    to make a function that does it all!
+    Try to call at least one of the other functions to minimise the
+    amount of code.
+    """
+    guard = 0
+    while guard < 1000:
+        guard += 1
+        try:
+            user_number = int(input(f"input a number between {low} and {high}: "))
+            if low <= user_number <= high:
+               return user_number
+        except Exception as e:
+            print("we couldn't convert that to a number, can you try again please.\n", e)
 
 def advancedGuessingGame():
     """Play a guessing game with a user.
@@ -25,9 +42,22 @@ def advancedGuessingGame():
     Remember to think modular. Try to keep your functions small and single
     purpose if you can!
     """
+    low = super_asker(-1000000, 100000, "enter a lower bound")
+    high = super_asker(low, 100000, "enter a upper bound")
 
-    return "You got it!"
+    actual = random.randint(low, high)
+
+    guard = 0
+    while guard < 1000:
+          guard += 1
+    guess = super_asker(low, high, "Guess a number in this range")
+    if guess == actual:
+       return "You got it!"
     # the tests are looking for the exact string "You got it!". Don't modify that!
+    elif guess < actual:
+      print("too low, guess higher")
+    elif guess > actual:
+      print("too high, guess lower")
 
 
 if __name__ == "__main__":
