@@ -40,7 +40,12 @@ def two_step_ranger(start, stop):
     Sometimes you want to hide complexity.
     Make a range function that always has a step size of 2
     """
-   
+    my_range = []
+    
+    for i in range(start, stop, 2):
+        my_range.append(i)
+
+    return my_range
 
 
 def stubborn_asker(low, high):
