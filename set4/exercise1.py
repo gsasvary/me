@@ -36,14 +36,14 @@ def get_some_details():
     with open(LOCAL + "/lazyduck.json", "r", encoding="utf-8") as f:
         json_data = f.read()
 
-    data = json.loads(json_data)
+        data = json.loads(json_data)
 
-    last = data["results"][0]["name"]["last"]
-    password = data['results'][0]['login']['password']
-    postcode = data['results'][0]['location']['postcode']
-    id = int(data['results'][0]['id']['value'])
-    
-    return {"lastName": last, "password": password, "postcodePlusID": postcode+id}
+        last = data["results"][0]["name"]["last"]
+        password = data['results'][0]['login']['password']
+        postcode = data['results'][0]['location']['postcode']
+        id = int(data['results'][0]['id']['value'])
+        
+        return {"lastName": last, "password": password, "postcodePlusID": postcode+id}
 
 
 def wordy_pyramid():
@@ -81,7 +81,7 @@ def wordy_pyramid():
     TIP: to add an argument to a URL, use: ?argName=argVal e.g. &wordlength=
     """
     pyramid = []
-    for x in range(20, 3, -2):
+    for x in range(3, 20, 2):
         url = ("https://us-central1-waldenpondpress.cloudfunctions.net/"
               "give_me_a_word?"
               f"wordlength={x}"
@@ -150,11 +150,25 @@ def diarist():
     TIP: this might come in handy if you need to hack a 3d print file in the future.
     """
     mode = "r"
+    x = 0
     with open("set4/Trispokedovetiles(laser).gcode") as gc:
         lines = gc.readlines()
+        for i in lines: 
+            if "M10 P1" in i:
+                x = x + 1
+    mode = "w"
+    with open("set4/lasers.pew", mode, encoding = "utf-8") as pw:
+        lines = pw.write(str(x)) 
+        for i in lines:
+            print(lines)
+        return lines
+
+                
+
 
     for line in lines:
         print (line)
+    
 
 
 if __name__ == "__main__":
