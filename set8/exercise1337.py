@@ -98,11 +98,11 @@ def greet(name="Towering Timmy") -> str:
     E.g. if given as "Towering Timmy" it should
          return "Well hello, Towering Timmy"
     """
-    name = "Towering Timmy"
-    my_string = ("Well hello, name")
+    my_string = ("Well hello, ")
+    name = "the Queen"
+    name = "Pr♂nc♀♂"
     
-    
-    return name
+    return my_string + name
 
 
 def one_counter(input_list=[1, 4, 1, 5, 1, 1]) -> int:
@@ -121,7 +121,7 @@ def n_counter(search_for_this, input_list=[1, 4, 1, 5, 1, 1]) -> int:
     """Count the number of times search_for_this shows up in the input_list.
     Return an integer.
     """
-    count = 5
+    count = 0
 
     return count
 
