@@ -24,7 +24,7 @@ def password_please() -> str:
     least one upper case letter and one lowercase letter.
     TIP: don't put in a real password!"""
 
-    my_string = "Dragonflies"
+    my_string = ("Dragonflies")
 
     return my_string
 
@@ -62,7 +62,12 @@ def string_list_please() -> list:
 
 def dictionary_please() -> dict:
     """Returns a dictionary, anything you like."""
-    return None
+ 
+    d = dict()
+
+    return d
+
+ 
 
 
 def is_it_5(some_number) -> bool:
