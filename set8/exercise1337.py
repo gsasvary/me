@@ -23,21 +23,37 @@ def password_please() -> str:
     """Returns a string, 8 or more characters long, contains at
     least one upper case letter and one lowercase letter.
     TIP: don't put in a real password!"""
-    return ("")
+
+    my_string = "Dragonflies"
+
+    return my_string
 
 
 def list_please() -> list:
     """Returns a list, you can put anything in the list."""
-    return None
+    
+    star_list = [] 
+    for i in range (10):
+        star_list.append("*")
+
+    return star_list
 
 
 def int_list_please() -> list:
     """Returns a list of integers, any integers are fine."""
-    return None
+
+    list = []
+    for i in range (10):
+       list.append(0)
+
+    return list
+
 
 
 def string_list_please() -> list:
     """Returns a list of strings, any string are fine."""
+
+
     return None
 
 
