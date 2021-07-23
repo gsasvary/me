@@ -72,13 +72,23 @@ def dictionary_please() -> dict:
 
 def is_it_5(some_number) -> bool:
     """Returns True if the argument passed is 5, otherwise returns False."""
-    well_is_it = None
+    
+    well_is_it = (5)
+    for i in range(10):
+        print(i)
+
     return well_is_it
 
 
 def take_five(some_number) -> int:
     """Subtracts 5 from some_number."""
-    return None
+
+    take_five = (0)
+    for i in range(10):
+        print(i)
+
+    return take_five
+
 
 
 def greet(name="Towering Timmy") -> str:
