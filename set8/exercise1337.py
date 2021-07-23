@@ -172,7 +172,7 @@ def set_it_on_fire(input_string="very naughty boy") -> str:
     TIP: consider using the 'join' method in Python.
     TIP: make sure that you have a 🔥 on both ends of the string.
     """
-    input_string = "very naughty boy" +  string.ascii_uppercase + "🔥"
+    input_string = "🔥" + "very naughty boy" + "🔥"
     list(range(10))
     
 
@@ -260,7 +260,7 @@ def random_filler_text(number_of_words=200) -> str:
 
     words = []
 
-    return " ".join(words)
+    return "number_of_words".join(words)
 
 
 def fast_filler(number_of_words=200) -> str:
