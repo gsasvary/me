@@ -1,3 +1,3 @@
 TODO: Reflect on what you learned this week and what is still unclear.
 This week I learnt how to write code more efficiently with the correct structure. I am still understanding the concepts behind the code and what it all means. In set 3, I learnt about loops and how they work.
-0 counts as a number, so if I want to print a range of 10 numbers python would print the numbers 0-9 vertically. If I want to create a list of numbers in a range of 10 python would print the number 0-9 horizontally.
+0 counts as a number, so if I want to print a range of 10 numbers, python would print the numbers 0-9 vertically. If I want to create a list of numbers in a range of 10, python would print the number 0-9 horizontally.
