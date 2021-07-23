@@ -53,8 +53,11 @@ def int_list_please() -> list:
 def string_list_please() -> list:
     """Returns a list of strings, any string are fine."""
 
-
-    return None
+    list = []
+    for i in range (10):
+        list.append("Hello")
+    
+        return list
 
 
 def dictionary_please() -> dict:
