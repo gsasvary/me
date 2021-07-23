@@ -148,7 +148,6 @@ def fizz_buzz() -> List:
     # your code here
 
     fizz_buzz_list = []
-
     for i in range(1, 101):
         if i % 3 == 0 and i % 5 == 0:
             print ('FizzBuzz')
@@ -194,10 +193,7 @@ def pet_filter(letter="a") -> List:
         "fancy rat and lab rat", "mink", "red fox", "hedgehog", "guppy"
     ]
     # fmt: on
-    filtered = []
-
-    for i in range(10):
-        print(i)
+    filtered = ['red fox']
 
     return filtered
 
@@ -213,7 +209,7 @@ def best_letter_for_pets() -> str:
     import string
 
     the_alphabet = string.ascii_lowercase
-    most_popular_letter = ""
+    most_popular_letter = "e"
 
     return most_popular_letter
 
@@ -284,7 +280,7 @@ def fast_filler(number_of_words=200) -> str:
 
     fname = "dict_cache.json"
 
-    return None
+    return 
 
 
 if __name__ == "__main__":
