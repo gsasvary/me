@@ -144,8 +144,20 @@ def fizz_buzz() -> List:
          'Fizz', 'Buzz',  11, 'Fizz', 13, 14,
          'FizzBuzz', 16, 17, ...]
     """
-    fizz_buzz_list = []
+    
     # your code here
+
+    fizz_buzz_list = []
+
+    for i in range(1, 101):
+        if i % 3 == 0 and i % 5 == 0:
+            print ('FizzBuzz')
+        elif i % 3 == 0:
+            print ('Fizz')
+        elif i % 5 == 0:
+            print ('Buzz')
+        else:
+            print (str(i))
 
     return fizz_buzz_list
 
@@ -161,8 +173,11 @@ def set_it_on_fire(input_string="very naughty boy") -> str:
     TIP: consider using the 'join' method in Python.
     TIP: make sure that you have a 🔥 on both ends of the string.
     """
+    input_string = "very naughty boy" +  string.ascii_uppercase + "🔥"
+    list(range(10))
+    
 
-    return None
+    return input_string
 
 
 def pet_filter(letter="a") -> List:
@@ -180,6 +195,9 @@ def pet_filter(letter="a") -> List:
     ]
     # fmt: on
     filtered = []
+
+    for i in range(10):
+        print(i)
 
     return filtered
 
