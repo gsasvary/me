@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+This week I studied more for the exam and completed it on Friday. The exam was what I expected - not too difficult but not too easy. I surprised myself with what I could do in the exam so I am happy about that. There was also a lot I could not figure out how to do in the time we had, and I'd like to be able to learn more and one day be able to do anything in code. 

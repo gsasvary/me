@@ -1,3 +1,3 @@
 TODO: Reflect on what you learned this week and what is still unclear.
 This week whilst completing the set 4 exercises, I learnt how to elaborate code further by importing JSON files. I also learnt that there are two modes in coding - "r" and "w" which stand for read and write. 
-I continued researching and working on my dataset and was able to achieve a graph that compares all four lakes' temperature and density. The graph looked messy as it included too much information so I split the graphs into two.
+I continued researching and working on my dataset and was able to achieve a graph that compares the two lakes' temperature and dissolved oxygen. I am still trying to work out how to create particular graphs that will help explain my project.

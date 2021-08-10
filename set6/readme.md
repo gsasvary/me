@@ -1,1 +1,3 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+This week I kept working on my data project and completed some research. I wanted to know the average temperature as well as the average dissolved oxygen levels a lake should be, and I found out that the results in my graphs are shocking. 
+I also researched the bushfire locations during mid January - mid February and found out that the bushfires severely affected the areas directly near all the lakes that I am analysing. I am hoping to create a map to locate where the bushfires occurred and where the lakes are in NSW.

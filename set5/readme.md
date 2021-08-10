@@ -1,1 +1,3 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+This week I decided to add another two datasets, Lake Termeil and Tuross River, into my data project as I want to be able to analyse more information and gain a further understanding. I had to concatenate these two datasets into the data frame with the other two lakes. 
+The graph I created on temperature and dissolved oxygen looked messy as it included too much information so I split the graphs into two - one analysing the temperatures in all lakes and one analysing the dissolved oxygen in all lakes.

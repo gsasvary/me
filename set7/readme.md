@@ -1,1 +1,3 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+This week we learnt how to create maps through geo pandas which helped me to create a map using folium to display the locations of all four lakes in the South Coast. This map took a while to create as I had to test different types of maps and code till I found one that worked with my project. 
+I also studied for the exam by going over all the tutorials and writing down notes. 

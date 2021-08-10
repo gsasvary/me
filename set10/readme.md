@@ -1,1 +1,3 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+This week I managed to achieve maps of each lake via a health risk dataset zip file I found whilst researching. These shapefiles were perfect and allowed me to map out each lake nicely. 
+I also found a shapefile on the burnt areas in NSW after the 2020 bushfires. This allowed me to map the burnt areas out but I would like to put a base map behind the plot to be able to see where they occurred a bit better. I am still figuring out how to create this base map.
